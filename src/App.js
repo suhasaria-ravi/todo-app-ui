@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import './css/App.css';
+import { Provider } from "react-redux";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import store from "./store";
+import Navbar from "./components/Navbar";
+import TodoPage from "./components/TodoPage";
+import AddTodoPage from "./components/TodoTask/AddTodoPage";
+import EditTodoPage from "./components/TodoTask/EditTodoPage";
+import ViewTodoPage from "./components/TodoTask/ViewTodoPage";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <Router>
+          <div className="App">          
+            <Navbar />
+            <Route exact path="/" component={TodoPage} />
+            <Route exact path="/addTodoTask" component={AddTodoPage} />
+            <Route exact path="/viewTodoTask/:pt_id"  component={ViewTodoPage}  /> 
+            <Route exact path="/editTodoTask/:pt_id"  component={EditTodoPage}  /> 
+          </div>
+        </Router>
+      </Provider>
+    );
+  }
 }
 
 export default App;

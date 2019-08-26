@@ -1,0 +1,82 @@
+.todo-page-col {
+    float: left;
+    width:25%;
+    margin:4.16%;
+    margin-top:1%;
+  }
+  
+  /* Clear floats after */
+  .todo-page-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .todo-page-text {
+    align-items: center;
+    text-align: center;    
+  }
+
+  .todo-page-header {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s; 
+    border-radius: 5px;       
+    background-color: rgb(69, 135, 201);    
+    margin: 0.3vw;  
+    margin-bottom: 0vw;  
+    display: block;
+    font-family: sans-serif;     
+    text-align: center;        
+  }
+
+  .todo-page-header-text{
+    padding-left: 0px;
+    padding-right: 0px;
+    height:2rem;
+    padding-top:0.6rem;
+    margin-bottom:1vw; 
+  }
+
+  .todo-page-header:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* background-color: rgba(108, 125, 144, 0.898);  */
+  }
+  
+  .app-item-button{
+    float: left;
+    align-items: right;
+    width:30%;
+    box-shadow: 0 4px 8px 0 rgba(62, 69, 41, 0.2);
+    transition: 0.2s; 
+    border-radius: 5px;       
+    background-color: rgb(216, 220, 35);
+    padding: 5px;
+    margin: 0.3vw;
+    display: block;
+    font-family: sans-serif;    
+    font-size: 1vw;  
+  }
+
+  .app-item-button:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .app-item-delete:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .app-item-button-link {
+    color: #000;
+    text-decoration: none;  
+  }
+
+  .app-item-button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgba(202, 185, 27, 0.762); 
+  }
+  
+

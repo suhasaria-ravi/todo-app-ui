@@ -1,0 +1,143 @@
+.view-todo-col {
+    text-align:center;    
+    width:20%;
+    margin:40%;
+    margin-top:1%;
+    padding: 10px; 
+    /* border:1px solid red;    */
+  }
+  
+  /* Clear floats after */
+  .view-todo-row:after {
+    content: "";
+    display: table;
+    clear: both;    
+  }
+
+  .view-todo-header {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s; 
+    border-radius: 5px;       
+    background-color: rgb(10, 122, 233);
+    padding: 7px;
+    margin: 0.3vw;
+    display: block;
+    font-family: sans-serif;   
+    font-size: 1.3vw;     
+  }
+
+  .view-todo-header:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgba(12, 100, 200, 0.898); 
+  }
+
+
+  .view-todo-container {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s; 
+    border-radius: 5px;       
+    background-color: rgb(218, 228, 231);
+    padding: 10px;
+    margin: 0.3vw;
+    margin-top: 0.75vw;
+    margin-bottom: 0.75vw;
+    font-family: sans-serif;    
+    font-size: 1.25vw;
+  } 
+
+  .view-todo-col .form-control
+  {
+    float:left;
+    width:95%;
+    position: relative;  
+    margin: 0.3vw;   
+    align-items: center;
+    text-align: left;      
+    border-radius: 5px;  
+    /* height:2vw;        */
+    border:1px solid disabled;       
+ }
+
+ 
+ .view-todo-col  .form-control-desc
+ {
+   float:left;
+   width:94%;
+   position: relative;  
+   margin: 0.3vw;   
+   align-items: center;
+   text-align: left;     
+   border-radius: 5px;  
+   /* height:5vw;          */
+
+   overflow: auto;
+   /* text-overflow: ellipsis; */
+   white-space: pre-line;
+   resize: both;   
+   /* border:1px solid green; */
+}
+
+.view-todo-col .form-control-select
+{
+  float:left;
+  width:96%;
+  position: relative;  
+  margin: 0.3vw;   
+  padding:0px;
+  align-items: center;
+  text-align: left;    
+  border-radius: 5px;  
+  height:2vw;
+}
+
+
+.view-todo-col .form-group .form-control {
+  content: "";
+  display: table;
+  clear: both;
+}
+  .view-todo-header {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .view-todo-button-submit{ 
+    /* border:1px solid red; */
+    width:96%;
+    box-shadow: 0 4px 8px 0 rgba(62, 69, 41, 0.2);
+    transition: 0.2s; 
+    border-radius: 5px;       
+    background-color: rgb(216, 220, 35);
+    padding: 5px;
+    margin: 0.3vw;
+    margin-top: 10px;
+    display: block;
+    font-family: sans-serif;    
+    font-size: 1vw;  
+  }
+
+  .view-todo-button-submit:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .view-todo-delete:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .view-todo-button-link {
+    color: #000;
+    text-decoration: none;  
+  }
+
+  .view-todo-button-submit:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgba(202, 185, 27, 0.762); 
+  }
+  
+
+
+  
