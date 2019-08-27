@@ -116,7 +116,7 @@ class TodoTaskItem extends Component {
                                           onChange={this.onChange.bind(this, todo_task)}>    
                       
                       <option value={todo_task.status}>{todo_task.status}</option>            
-                      <option className="div-Cell" value={doneStatus} >{doneStatus}</option>          
+                      <option value={doneStatus} >{doneStatus}</option>          
                       
                       </select> 
                       </div>

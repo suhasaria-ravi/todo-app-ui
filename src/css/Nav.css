@@ -9,7 +9,8 @@
     font-family: sans-serif; 
     display: flex;
     align-items: center;
-    text-align-last: center;
+    text-align:center;
+    text-align-last: center;    
     padding: 0.3vw;
     margin-top:0.5%;    
   }
@@ -24,7 +25,7 @@
   .nav-home{
     float: left;
     width:10%;  
-    height: 2vw;       
+    height: 2vw;  
     background-color: rgb(226, 225, 178); 
     padding: 0.2rem;
     margin-right: 10px;    
