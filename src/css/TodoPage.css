@@ -79,5 +79,191 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     background-color: rgba(202, 185, 27, 0.762); 
   }
-  
 
+
+
+  /* Media Queries  Start */
+
+@media screen and (max-width: 800px) {
+
+  .todo-page-col {
+    float: left;
+    width:40%;
+    align-content: center;    
+    font-size: 1em;
+    margin-top:1%;
+    margin-bottom:1%;
+    font-size:3vw;
+    padding-top:2%;
+    padding-bottom:2%;
+    }
+
+     .app-item-button{
+      float: left;
+      width:30%;
+      align-content: center;            
+      margin-top:1%;
+      margin-bottom:1%;
+      font-size:1.5vw;
+      padding-top:2%;
+      padding-bottom:2%;
+    }
+
+    .todo-page-header ,.todo-page-header-text{
+
+      width:91%;
+      margin-left: 5%;
+      height:10%;
+      margin-bottom: 3%;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+  
+  .todo-page-col {
+    float: left;
+    width:60%;
+    align-content: center;
+    margin:20%;
+    font-size: 1em;
+    margin-top:1%;
+    margin-bottom:1%;
+    font-size:3vw;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top:2%;
+    padding-bottom:2%;
+    }
+
+     .app-item-button{
+      float: left;
+      width:30%;
+      align-content: center;            
+      margin-top:1%;
+      margin-bottom:1%;
+      font-size:2vw;
+      padding-top:2%;
+      padding-bottom:2%;
+    }
+
+    .todo-page-header ,.todo-page-header-text{
+
+      width:91%;
+      margin-left: 5%;
+      height:10%;
+      margin-bottom: 3%;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+  
+  .todo-page-col {
+    float: left;
+    width:60%;
+    align-content: center;
+    margin:20%;
+    font-size: 1em;
+    margin-top:1%;
+    margin-bottom:1%;
+    font-size:3vw;
+    margin-right: 0px;
+    margin-left: 20%;
+    padding-top:2%;
+    padding-bottom:2%;
+    }
+
+     .app-item-button{
+      float: left;
+      width:30%;
+      align-content: center;            
+      margin-top:1%;
+      margin-bottom:1%;
+      font-size:2vw;
+      padding-top:2%;
+      padding-bottom:2%;
+    }
+
+    .todo-page-header ,.todo-page-header-text{
+
+      width:91%;
+      margin-left: 5%;
+      height:10%;
+      margin-bottom: 3%;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+  
+  .todo-page-col {
+    float: left;
+    width:63.5%;
+    align-content: center;
+    margin:20%;
+    font-size: 1em;
+    margin-top:1%;
+    margin-bottom:1%;
+    font-size:3vw;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top:2%;
+    padding-bottom:2%;
+    }
+
+     .app-item-button{
+      float: left;
+      width:30%;
+      align-content: center;            
+      margin-top:1%;
+      margin-bottom:1%;
+      font-size:2vw;
+      padding-top:2%;
+      padding-bottom:2%;
+    }
+
+    .todo-page-header ,.todo-page-header-text{
+
+      width:91%;
+      margin-left: 5%;
+      height:10%;
+      margin-bottom: 3%;
+
+    }
+
+}
+
+
+  /* Media Queries  End */
+
+
+
+  
+/*
+
+Machine generated alternative text:
+nav ut ( list-style: none; margin: •; padding: epx; )
+nav ut l.i:hover ( background-color: 12b0306; )
+nav ut ti:hover > ut ( display: block;I I
+nav ut li a (
+display: inline-block;
+cotor: lfff;
+padding: løpx 2øpx;
+text-decoration: none;
+width: l2Spx;
+position: relative:
+nav ut li a:visited ( color: #fff; )
+nav ut li a:hover ( background-color: 06d0911; )
+nav ut ut ( position: absolute: top: 100%; background-color: #2b0306; display: none; )
+nav ut ut li ( position: relative; )
+nav ut ut ut ( left: 100*; top: 0px; )
+
+*/

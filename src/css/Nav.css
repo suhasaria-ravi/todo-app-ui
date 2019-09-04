@@ -55,4 +55,35 @@
   }
   
   
-  
+  @media screen and (max-width: 400px) {
+
+    .nav-header {
+      float: left;
+      width:63%;
+      align-content: center;
+      margin:10%;
+      font-size: 0.5em;
+      margin-top:1%;
+      margin-bottom:1%;
+      font-size:3vw;
+      margin-right: 0px;
+      margin-left: 0px;
+      padding-top:2%;
+      padding-bottom:2%;
+      padding-left:1.5%;
+      }
+
+      .nav-home{
+        float: left;  
+        width:30%;  
+        height: 3vw;  
+        background-color: rgb(226, 225, 178); 
+        padding: 0.2rem;
+        margin-right: 10px;    
+        border-radius: 5px;   
+        display: block;
+        align-items: center;
+        text-align-last: center;
+        text-decoration: none;     
+      }
+    }      
